@@ -1,64 +1,64 @@
 @media only screen and (max-width: 992px) {
-    .navigation {
-      width: 100%;
-      transition: all 0.4s linear;
-      color: white;
-    }
-    .navigation .navbar__nav {
-      text-align: center;
-      margin-top: 15rem;
-    }
-    .navigation .navbar__nav a {
-      color: black;
-      display: block;
-    }
-    .navigation i {
-      display: block;
-    }
-    .height {
-      background-color: #9f670e;
-      transition: all 0.4s linear;
-      height: 35vh;
-    }
-    .header .banner {
-      width: 100%;
-      height: 100vh;
-    }
-    .about .about__content {
-      grid-template-columns: repeat(2, 1fr);
-    }
-    .gallery .gallery__container {
-      grid-template-columns: 1fr;
-    }
-    .blog__container {
-      grid-template-columns: 1fr;
-    }
-    .footer__content {
-      grid-template-columns: repeat(3, 1fr);
-    }
+  .navigation {
+    width: 100%;
+    transition: all 0.4s linear;
+    color: white;
   }
-  @media only screen and (max-width: 768px) {
-    .about .about__content {
-      grid-template-columns: 1fr;
-    }
-    .gallery__content {
-      grid-template-columns: 1fr;
-    }
-    .swiper p {
-      width: 90%;
-    }
-    .contact .title {
-      width: 100%;
-    }
-    .contact__modal iframe {
-      width: 100%;
-    }
-    .footer__content {
-      grid-template-columns: repeat(2, 1fr);
-    }
+  .navigation .navbar__nav {
+    text-align: center;
+    margin-top: 15rem;
   }
-  @media only screen and (max-width: 468px) {
-    .footer__content {
-      grid-template-columns: 1fr;
-    }
+  .navigation .navbar__nav a {
+    color: black;
+    display: block;
   }
+  .navigation i {
+    display: block;
+  }
+  .height {
+    background-color: #9f670e;
+    transition: all 0.4s linear;
+    height: 35vh;
+  }
+  .header .banner {
+    width: 100%;
+    height: 100vh;
+  }
+  .about .about__content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .gallery .gallery__container {
+    grid-template-columns: 1fr;
+  }
+  .blog__container {
+    grid-template-columns: 1fr;
+  }
+  .footer__content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .about .about__content {
+    grid-template-columns: 1fr;
+  }
+  .gallery__content {
+    grid-template-columns: 1fr;
+  }
+  .swiper p {
+    width: 90%;
+  }
+  .contact .title {
+    width: 100%;
+  }
+  .contact__modal iframe {
+    width: 100%;
+  }
+  .footer__content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 468px) {
+  .footer__content {
+    grid-template-columns: 1fr;
+  }
+}
