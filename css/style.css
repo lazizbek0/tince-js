@@ -66,12 +66,12 @@ img {
 }
 .navigation .navbar .navLogo a {
   font-size: 2rem;
-  color: #fff;
+  color:black;
 }
 .navigation .navbar .navbar__nav a {
   margin-left: 15px;
   margin-right: 15px;
-  color: #fff;
+  color:black;
   font-size: 1.3rem;
   letter-spacing: 1px;
   font-family: "Roboto", sans-serif;
@@ -406,6 +406,15 @@ img {
 .footer__content .socail i {
   font-size: 1.3rem;
 }
+
+
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
+
 
 .show {
   display: block;
