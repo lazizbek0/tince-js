@@ -256,6 +256,9 @@ img {
   border-radius: 10px;
   margin-bottom: 1rem;
 }
+.swiper span{
+  margin-left: 50px;
+}
 
 .blog {
   width: 100%;

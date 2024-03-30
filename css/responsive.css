@@ -10,7 +10,7 @@
   }
   .navigation .navbar__nav a {
     color: black;
-    display: block;
+   opacity: 0;
   }
   .navigation i {
     display: block;
@@ -46,8 +46,8 @@
   }
   .swiper p {
     width: 40%;
-   
   }
+  
   .contact .title {
     width: 100%;
   }
